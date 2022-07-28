@@ -4,7 +4,7 @@ import chalk from "chalk";
 
 export default async function saveData(data) {
   const fileName = `result.json`;
-  const savePath = path.join("../PARSER/", "data", fileName);
+  const savePath = path.join("../parser-main/", "data", fileName);
 
   return new Promise((resolve, reject) => {
     fs.writeFile(savePath, JSON.stringify(data), (err) => {
