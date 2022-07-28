@@ -1,6 +1,6 @@
 For launch program write "npm start"
 
-In file env.js you can change URL site, from those need get data, also you can change tags too
+In file env.js you can change URL site, tags that you'll need to parse
 
 Result after work will create in data folder
 
